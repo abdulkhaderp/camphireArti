@@ -1,0 +1,87 @@
+.contact-header{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    background: #05134e;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+.contact-header h2{
+    letter-spacing: 1.5px !important;
+}
+form{
+    padding: 35px;
+    background: #c9dedd;
+    background: #5294ff;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #f4f7f7;
+    /* background: none;
+    color: #fff; */
+    border: solid 1px #3a4d67;
+    /* box-shadow: #05134e 4px 4px 1px 3px; */
+}
+/* form input[type='text'],form input[type='number'],form input[type='email'], textarea{
+    border: none;
+    background: none;
+    color: white !important;
+
+    border-bottom: solid 1px white;
+    border-radius: 0;
+}
+form input:focus{
+    color: white !important;
+    background: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+textarea{
+    border: none !important;
+    color: white !important;
+
+    background: none !important;
+    border-bottom: solid 1px white !important;
+    border-radius: 0 !important;
+}
+textarea:focus{
+    color: white !important;
+
+    box-shadow: none !important;
+
+} */
+.form-title{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+}
+form .form-group{
+    width: 85%;
+}
+.send-btn{
+    color: #fff !important;
+    border: 0 !important;
+}
+.main-sec-contact{
+    background: #06400c;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+.toast-header button{
+    display: none !important;
+}
+.toast-body{
+    font-size: 18px !important;
+    color: #036303 !important;
+}
+.toast-place{
+    position: absolute;
+}
+@media only screen and (max-width :600px){
+    form{
+        width: 100%;
+    }
+}
